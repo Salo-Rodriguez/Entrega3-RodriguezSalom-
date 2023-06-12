@@ -1,0 +1,84 @@
+main{
+    padding: 50px 0;
+    .boton{
+        padding: 10px 20px;
+        border-style: none;
+        background-image: url(../img/src/Monaco\,\ Monaco.png );
+        background-size: 50% 50%;
+        background: $color-botones;
+        border-radius: $borde-radio;
+        color: $color-texto;
+        width: 100%;
+        box-shadow: $sombra;
+    }
+    .foto{
+        width: 100%;
+    }
+    .btnuno{
+        background-color: $color-btnuno;
+        border-radius: $borde-radio;
+        border-style: none;
+        padding: 10px;
+        width: 50%;
+        margin-left: 25%;
+    }
+    .btndos{
+        background-color: $color-btndos;
+        border-radius: $borde-radio;
+        border-style: none;
+        font-size: small;
+        padding: 10px;
+        width: 30%;
+        margin-left: 35%;
+    }
+    .mb-3{
+        color: #000000;
+        justify-items: center;
+    }
+    .image-container {
+        position: relative;
+        display: inline-block;
+    }
+    .button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+        background: $color-botones;
+        color: $color-texto;
+        text-decoration: none;
+        border-radius: 20px;
+        width: 80%;
+        text-align: center;
+        font-size: x-large;
+    }
+    .marg-ccto{
+        margin-top: 25%;
+    }
+    .circuitos{
+        display: block;
+        margin: auto;
+    }
+    button.info{
+        background: $color-botones;
+        border-radius: $borde-radio;
+        padding: 20px;
+        border-style: none;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    section div div{
+        button a{
+        text-decoration: none;
+        color: $color-texto;
+    }
+        label.form-check-label{
+        font-size: small;
+    }
+        input{
+        size: 20px;
+    }
+    }
+}

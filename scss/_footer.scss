@@ -1,0 +1,36 @@
+footer{
+    height: 100%;
+    background-color: #e0070000;
+    div{
+        ul{
+            display: flex;
+            justify-content: right;
+            li{
+                list-style-type:none;
+                    .pie{
+                        width: 70px;
+                        height: 70px;
+                        margin-right: 40px;
+                    } 
+                    .pie1{
+                        width: 80px;
+                        height: 80px;
+                        margin-right: 40px;
+                        margin-top: -6px;
+                    } 
+            }
+        }
+        p{
+            font-size: small;
+            color: #45454576;
+            text-align: right;
+            margin-right: 35px;
+                .letra-circuitos{
+                    font-size: small;
+                    color: #ffffff9f;
+                    text-align: right;
+                    margin-right: 35px;
+                }
+        }
+    }
+}
