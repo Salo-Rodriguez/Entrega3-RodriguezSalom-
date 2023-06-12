@@ -7,12 +7,12 @@ footer{
             justify-content: right;
             li{
                 list-style-type:none;
-                cursor: pointer;
-                transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
                     .pie{
                         width: 70px;
                         height: 70px;
                         margin-right: 40px;
+                        cursor: pointer;
+                        transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
                     } 
                     .pie1{
                         width: 80px;
