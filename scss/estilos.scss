@@ -4,7 +4,7 @@
 @import "footer";
 @import "main";
 @import "fondos";
-$medias:desktop;
+$medias:mobile;
 
 @if $medias == desktop{
     .inicio{
