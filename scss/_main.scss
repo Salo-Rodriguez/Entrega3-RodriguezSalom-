@@ -15,7 +15,7 @@ main{
         width: 100%;
     }
     .btnuno{
-        background-color: $color-btnuno;
+        background-color: map-get($botones, boton-secundario);
         border-radius: $borde-radio;
         border-style: none;
         padding: 10px;
