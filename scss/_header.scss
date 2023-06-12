@@ -26,4 +26,10 @@ header{
     .navbar-toggler-icon{
         background-image: url(../img/logo/menu-abierto.png);
     }
+    @media screen and (min-width: 1440px){
+        .nav-move{
+        display: flex;
+        margin-left: 50rem;
+    }
+}
 }
