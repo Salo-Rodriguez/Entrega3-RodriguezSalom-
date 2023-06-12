@@ -1,14 +1,13 @@
 main{
     padding: 50px 0;
     .boton{
-        padding: 10px 20px;
         border-style: none;
         background-image: url(../img/src/Monaco\,\ Monaco.png );
         background-size: 50% 50%;
         background: map-get($botones, boton-primario);
         border-radius: $borde-radio;
         color: $color-texto;
-        width: 100%;
+        @include botones(100%, 10px 20px);
         box-shadow: $sombra;
     }
     .foto{
@@ -18,8 +17,7 @@ main{
         background-color: map-get($botones, boton-secundario);
         border-radius: $borde-radio;
         border-style: none;
-        padding: 10px;
-        width: 50%;
+        @include botones(50%, 10px);
         margin-left: 25%;
     }
     .btndos{
@@ -61,7 +59,7 @@ main{
         margin: auto;
     }
     button.info{
-        background: map-get($botones, boton-primario);
+        background: map-get($botones, boton-primario)giu;
         border-radius: $borde-radio;
         padding: 20px;
         border-style: none;

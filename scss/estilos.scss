@@ -5,6 +5,7 @@
 @import "main";
 @import "fondos";
 @import "botones";
+@import "mixins";
 $medias:mobile;
 
 @if $medias == desktop{
