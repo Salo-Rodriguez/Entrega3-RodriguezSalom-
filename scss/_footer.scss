@@ -11,8 +11,6 @@ footer{
                         width: 70px;
                         height: 70px;
                         margin-right: 40px;
-                        cursor: pointer;
-                        transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
                     } 
                     .pie1{
                         width: 80px;
@@ -44,8 +42,6 @@ footer{
             width: 50px;
             height: 50px;
         }
-        cursor: pointer;
-                transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
     @media screen and (max-width: 756px){
         .pie1{
@@ -56,7 +52,5 @@ footer{
             width: 60px;
             height: 60px;
         }
-        cursor: pointer;
-                transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
 }
