@@ -4,7 +4,7 @@ main{
         border-style: none;
         background-image: url(../img/src/Monaco\,\ Monaco.png );
         background-size: 50% 50%;
-        background: map-get($botones, boton-primario);
+        background: map-get($botones, boton-primario );
         border-radius: $borde-radio;
         color: $color-texto;
         @include botones(100%, 10px 20px);
