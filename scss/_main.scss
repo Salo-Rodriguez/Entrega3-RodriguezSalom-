@@ -14,7 +14,7 @@ main{
         width: 100%;
     }
     .btnuno{
-        background-color: map-get($botones, boton-secundario);
+        background-color:map-get($botones, boton-primario);
         border-radius: $borde-radio;
         border-style: none;
         @include botones(50%, 10px);
